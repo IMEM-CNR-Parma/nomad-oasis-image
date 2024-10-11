@@ -1915,7 +1915,7 @@ wheels = [
 [[package]]
 name = "imem-nomad-plugin"
 version = "0.0.0"
-source = { git = "https://github.com/IMEM-CNR-Parma/IMEM-NOMAD-plugins.git?rev=f326e6b82f3242e95144079618c997775418dedc#f326e6b82f3242e95144079618c997775418dedc" }
+source = { git = "https://github.com/IMEM-CNR-Parma/IMEM-NOMAD-plugins.git?rev=cfbee3d7be7e5a15011c5aaef450d74dce204fe8#cfbee3d7be7e5a15011c5aaef450d74dce204fe8" }
 dependencies = [
     { name = "lakeshore-nomad-plugin" },
     { name = "laytec-epitt-plugin" },
@@ -3815,7 +3815,7 @@ plugins = [
 [package.metadata]
 requires-dist = [
     { name = "eelsdbconverter", marker = "extra == 'plugins'", git = "https://github.com/nomad-coe/nomad-parser-eelsdb.git?rev=entry-point" },
-    { name = "imem-nomad-plugin", marker = "extra == 'plugins'", git = "https://github.com/IMEM-CNR-Parma/IMEM-NOMAD-plugins.git?rev=f326e6b82f3242e95144079618c997775418dedc#f326e6b82f3242e95144079618c997775418dedc" },
+    { name = "imem-nomad-plugin", marker = "extra == 'plugins'", git = "https://github.com/IMEM-CNR-Parma/IMEM-NOMAD-plugins.git?rev=cfbee3d7be7e5a15011c5aaef450d74dce204fe8#cfbee3d7be7e5a15011c5aaef450d74dce204fe8" },
     { name = "nomad-aitoolkit", marker = "extra == 'plugins'", git = "https://github.com/FAIRmat-NFDI/nomad-aitoolkit.git?rev=b203f8eb28dc4b6771a39d5c5b7ad3d9d8583ac8#b203f8eb28dc4b6771a39d5c5b7ad3d9d8583ac8" },
     { name = "nomad-analysis", marker = "extra == 'plugins'", git = "https://github.com/FAIRmat-NFDI/nomad-analysis.git?rev=develop" },
     { name = "nomad-lab", extras = ["parsing", "infrastructure"], specifier = ">=1.3.4" },
