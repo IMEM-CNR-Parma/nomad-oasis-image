@@ -42,7 +42,7 @@ plugins = [
   "nomad-material-processing",
   "nomad-analysis @ git+https://github.com/FAIRmat-NFDI/nomad-analysis.git@develop",
   "statsmodels",
-  "imem-nomad-plugin @ git+https://github.com/IMEM-CNR-Parma/IMEM-NOMAD-plugins.git@ab05ef5928b2d1be30e6869d564d7391c412667d",
+  "imem-nomad-plugin @ git+https://github.com/IMEM-CNR-Parma/IMEM-NOMAD-plugins.git@c54a233a1a277ba368ce259bfc4309371fa75447",
 ]
 jupyter = []
 dev = ["nomad-lab[parsing, infrastructure, dev]>=1.3.15"]
