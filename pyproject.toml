@@ -27,7 +27,6 @@ plugins = [
   "eelsdbconverter @ git+https://github.com/nomad-coe/nomad-parser-eelsdb.git@entry-point",
   "nomad-measurements",
   "nomad-material-processing",
-  "nomad-analysis @ git+https://github.com/FAIRmat-NFDI/nomad-analysis.git@develop",
 ]
 jupyter = []
 dev = ["nomad-lab[parsing, infrastructure, dev]>=1.3.15"]
