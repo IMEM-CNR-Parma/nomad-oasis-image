@@ -27,7 +27,6 @@ plugins = [
   "eelsdbconverter @ git+https://github.com/nomad-coe/nomad-parser-eelsdb.git@entry-point",
   "nomad-measurements",
   "nomad-material-processing",
-  "statsmodels",
   "nomad-analysis @ git+https://github.com/FAIRmat-NFDI/nomad-analysis.git@develop",
   "imem-nomad-plugin @ git+https://github.com/IMEM-CNR-Parma/IMEM-NOMAD-plugins.git@b18eb8c87581d06debb144b93763687c94fda927",
 ]
