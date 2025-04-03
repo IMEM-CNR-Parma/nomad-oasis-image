@@ -13,6 +13,7 @@ prerelease-mode = "disallow"
 
 [manifest]
 constraints = [{ name = "hyperspy", specifier = ">=1.7.6" }]
+build-constraints = [{ name = "wheel", specifier = "<0.46" }]
 
 [[package]]
 name = "aiosmtpd"
