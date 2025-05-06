@@ -44,7 +44,7 @@ plugins = [
   "nomad-measurements @ git+https://github.com/FAIRmat-NFDI/nomad-measurements.git@c297d6b4fb3faa47a6a9076d031310f8d3dbe256",
   "nomad-material-processing @ git+https://github.com/FAIRmat-NFDI/nomad-material-processing.git@38edad53b1d78010a6e77590e2ba178a7f9fb99d",
   "nomad-analysis @ git+https://github.com/FAIRmat-NFDI/nomad-analysis.git@cc602021f95ad5b1bc921c6835e76561d28f0e76",
-  "imem-nomad-plugin @ git+https://github.com/IMEM-CNR-Parma/IMEM-NOMAD-plugins.git@b18eb8c87581d06debb144b93763687c94fda927",
+  "imem-nomad-plugin @ git+https://github.com/IMEM-CNR-Parma/IMEM-NOMAD-plugins.git@de5aace3b499d121c72c4e72c7cb9326efc8efe2",
 ]
 jupyter = []
 dev = ["nomad-lab[parsing, infrastructure, dev]>=1.3.15"]
